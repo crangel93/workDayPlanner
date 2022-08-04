@@ -36,7 +36,7 @@ var time = $("#time" + present.toString());
 
 time.addClass("present");
 
-for (var i = d.getHours(); i < 17; i++) {
+for (var i = d.getHours(); i < 18; i++) {
     var time = $("#time" + i.toString());
     console.log(d.getHours());
     time.addClass("future");
