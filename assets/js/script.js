@@ -33,7 +33,7 @@ for (var i = 9; i < d.getHours(); i++) {
 var present = d.getHours();
 //targeting the time id 
 var time = $("#time" + present.toString());
-
+g
 time.addClass("present");
 
 for (var i = d.getHours()+1; i < 18; i++) {
