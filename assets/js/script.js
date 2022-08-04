@@ -36,7 +36,7 @@ var time = $("#time" + present.toString());
 
 time.addClass("present");
 
-for (var i = d.getHours(); i < 18; i++) {
+for (var i = d.getHours()+1; i < 18; i++) {
     var time = $("#time" + i.toString());
     console.log(d.getHours());
     time.addClass("future");
@@ -98,15 +98,7 @@ $("#btn14").on("click", function () {
 
 
 });
-$("#btn14").on("click", function () {
 
-    var textPlan = $("#text14").val();
-    localStorage.setItem("plan14", textPlan);
-
-
-
-
-});
 $("#btn15").on("click", function () {
 
     var textPlan = $("#text15").val();
