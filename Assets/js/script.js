@@ -1,3 +1,6 @@
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
 //creating a date variable so I can get the hours with the getHours() method
 var d = new Date();
 //function to get localStorage data
